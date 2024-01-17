@@ -19,8 +19,8 @@ import { ReadStream, readSync } from 'fs'
 var presentuser=null;
 
 //import {userschema,User} from "./users.js"
-const localdatabase ='mongodb+srv://ash:ash123ishere@cluster0.03apuea.mongodb.net/secretsDB'
-const uridatabase ="mongodb://127.0.0.1/secretsDB"
+const uridatabase ='mongodb+srv://ash:ash123ishere@cluster0.03apuea.mongodb.net/secretsDB'
+//const uridatabase ="mongodb://127.0.0.1/secretsDB"
  
 
 const conn=mongoose.createConnection(uridatabase)
